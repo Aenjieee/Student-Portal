@@ -65,7 +65,7 @@ if (isset($_POST['add'])) {
                             $mi = $row['mi'];
                             $picture = $row['picture'];
 
-                            // Corrected the variable name from $grade to $gradingValue
+                            // Correted the variable name from $grade to $gradingValue
                             if ($grading == "prelim") {
                                 $gradingValue = $row['prelim'];
                             } elseif ($grading == "midterm") {
@@ -104,3 +104,4 @@ if (isset($_POST['add'])) {
 </body>
 
 </html>
+
